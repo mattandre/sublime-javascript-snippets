@@ -5,10 +5,10 @@ var ${1:functionName} = (function() {
 
 	var ${1:functionName},
 			timeWindow = ${2:500},
-			lastExecution = new Date((new Date()).getTime() - timeWindow),
+			lastExecution = new Date((new Date()).getTime() - timeWindow);
 	
 	${1:functionName} = function(${3:args}) {
-		${4: // your code goes here}
+		${4:// your code goes here}
 	};
 
 	return function() {
