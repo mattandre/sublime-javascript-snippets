@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:methodName}.call(${2:context}, ${3:arguments});
+]]></content>
+	<tabTrigger>fcall</tabTrigger>
+	<scope>source.js</scope>
+	<description>Function Call</description>
+</snippet>

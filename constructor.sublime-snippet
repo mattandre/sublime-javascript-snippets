@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+var ${1:ConstructorName} = function(${2:args}) {
+	if (!(this instanceof ${1:ConstructorName})) {
+		return new ${1:ConstructorName}(${2:args});
+	}
+	${3:// constructor body}
+};
+
+${4:${1:ConstructorName}.prototype.${5:methodName} = function(${6:args}) {
+	${7:// method body}
+\}};]]></content>
+	<tabTrigger><![CDATA[constructor]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>JS Constructor</description>
+</snippet>
